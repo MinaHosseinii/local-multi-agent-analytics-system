@@ -1,0 +1,5 @@
+# Direct dependencies. See requirements-tested.txt for the packaging environment.
+langgraph>=1,<2
+langchain-core>=1,<2
+langchain-openai>=1,<2
+scipy>=1.14,<2
