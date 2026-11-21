@@ -9,7 +9,7 @@ There are two separate entry points:
 
 This is a tested prototype, not a production service. All committed example data are synthetic.
 
-<p align="mermaid-diagram.png" width="400">
+<p align="https://github.com/MinaHosseinii/local-multi-agent-analytics-system/blob/main/mermaid-diagram.png" width="400">
   <img src="" />
 </p>
 
