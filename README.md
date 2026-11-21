@@ -58,16 +58,6 @@ For `Calculate Spearman correlation between marketing cost and order value.`, th
 | Correlation tool | Validate numeric data, prepare aligned complete pairs and calculate with SciPy. |
 | Reporting | Format the successful result and disclose excluded rows. |
 
-```mermaid
-flowchart TD
-    S["Supervisor"] --> V["Extract and validate request"]
-    V -->|Ready| C["Validate data and calculate"]
-    V -->|Missing method| Q["Ask for clarification"]
-    V -->|Unsupported or invalid| X["Stop request"]
-    C -->|Success| R["Report coefficient and exclusions"]
-    C -->|Failure| B["Explain analysis blocker"]
-```
-
 With the small interactive fixture, Spearman correlation is approximately **0.40**, using four complete pairs and excluding one row with a missing order value. This is a descriptive association, not evidence of causation. The tools support Pearson, Spearman and Kendall; the workflow does not silently choose a method when none was requested.
 
 For the question `Calculate correlation between marketing cost and order value.`, extraction should leave the method empty and the validator asks which method to use. For `Calculate Pearson correlation between age and salary.`, the extractor should preserve those unsupported column names so Python can reject them. Mapping every request to the available columns would risk answering a different question.
