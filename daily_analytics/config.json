@@ -1,0 +1,11 @@
+{
+  "client_name": "Demo customer — synthetic data",
+  "input_csv": "daily_input/orders.csv",
+  "output_directory": "daily_reports",
+  "timezone": "Europe/Berlin",
+  "automatic_copy_operations": ["remove_exact_duplicate", "normalize_date"],
+  "correlation_methods": ["pearson", "spearman", "kendall"],
+  "total_value_change_alert_percent": 20.0,
+  "stale_export_hours": 36,
+  "use_local_llm_for_priority": false
+}
