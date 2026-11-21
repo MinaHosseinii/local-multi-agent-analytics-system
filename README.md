@@ -9,7 +9,9 @@ There are two separate entry points:
 
 This is a tested prototype, not a production service. All committed example data are synthetic.
 
-<img src="mermaid-diagram.png" alt="Mermaid Diagram" width="400">
+<p align="mermaid-diagram.png" width="400">
+  <img src="" />
+</p>
 
 ## Quick start
 
