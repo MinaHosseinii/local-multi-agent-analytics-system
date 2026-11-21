@@ -9,6 +9,8 @@ There are two separate entry points:
 
 This is a tested prototype, not a production service. All committed example data are synthetic.
 
+<img src="mermaid-diagram.png" alt="Mermaid Diagram" width="400">
+
 ## Quick start
 
 Use Python 3.12 or newer on macOS or Linux. Development was exercised on macOS Python 3.14 and packaging tests on Linux Python 3.12; this is not a complete platform support matrix. The daily CLI uses POSIX `fcntl` and is not Windows-compatible as supplied. The schedule installer is macOS-only.
